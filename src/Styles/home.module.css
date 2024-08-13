@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*first container*/
+
+.firstContainer {
+    background-color: #8FB8ED;
+    height: 750px;
+    width: 100%;
+}
+
+
+/* first container navbar */
+
+.navbar {
+    background-color: red;
+    height: 100px;
+    width: 100;
+}
+
+.navlist {
+    background-color: red;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.logoimage {
+    position: absolute;
+    left: 137px;
+    scale: 1.5;
+    top: 8px;
+}
+
+.logoname {
+    position: absolute;
+    top: 31px;
+    left: 107px;
+    scale: 1.1;
+}
+
+
+
+
+
+
+/*second container*/
+.secondContainer {
+    background-color: #C2BBF0;
+    height: 750px;
+    width: 100%;
+}
+
+/*first container*/
+
+.thirdContainer {
+    background-color: #F1E3F3;
+    height: 750px;
+    width: 100%;
+}
+
+
+/*first container*/
+.fourthContainer {
+    background-color: #62BFED;
+    height: 750px;
+    width: 100%;
+}
+
+
+/*first container*/
+.fifthContainer {
+    background-color: #3590F3;
+    height: 750px;
+    width: 100%;
+}
+
+.sixthContainer {
+    background-color: #9FFCDF;
+    height: 750px;
+    width: 100%;
+}
+
+.seventhContainer {
+    background-color: #52AD9C;
+    height: 750px;
+    width: 100%;
+}
