@@ -1,0 +1,110 @@
+.container{
+    height: 125rem;
+    width: 100%;
+    background-color: rgb(205, 205, 244);
+    position: relative;
+    top: 69px;
+}
+
+
+.hero{
+    height: 85px;
+    width: 100%;
+    /* background-color: red; */
+    position: relative;
+    top: 3rem;
+    font-size: 2.2rem;
+    font-weight: bold;
+    position: relative;
+    left: 8rem;
+}
+
+.content{
+    height: 110rem;
+    width: 65%;
+    background-color: rgb(205, 205, 244);
+    position: relative;
+    left: 8rem;
+    top: 3rem;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    border: 1.5px solid black;
+    border-radius: 30px;
+}
+
+.card{
+    height: 16rem;
+    width: 52rem;
+    background-color: #92f8d8;
+    position: relative;
+    left: 4rem;
+    top: 2rem;
+    border-radius: 46px;
+    margin-bottom: 1.5rem;
+}
+
+
+.img{
+    height: 256px;
+    width: 272px;
+    /* background-color: blue; */
+    border-radius: 56px;
+}
+
+.heading{
+    height: 85px;
+    width: 30rem;
+    /* background-color: pink; */
+    position: relative;
+    top: -15rem;
+    left: 19rem;
+    font-size: 2rem;
+}
+
+.discription{
+    height: 112px;
+    width: 30rem;
+    /* background-color: purple; */
+    position: relative;
+    top: -14rem;
+    left: 19rem;
+    font-size: 1.1rem;
+}
+
+.img1{
+    background-image: url('../images/SelfLove.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.img2{
+    background-image: url('../images/TimeManagemant.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.img3{
+    background-image: url('../images/SocialSupport.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.img4{
+    position: relative;
+    left: 2rem;
+    background-image: url('../images/Expect.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.img5{
+    background-image: url('../images/Communicate.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.img6{
+    scale: 0.9;
+    background-image: url('../images/FamilyTime.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}

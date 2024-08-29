@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&family=Montserrat:ital,wght@0,100..900;1,100..900&family=New+Amsterdam&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 /*first container*/
@@ -14,49 +18,268 @@
 
 /* first container navbar */
 
-.navbar {
-    background-color: red;
-    height: 100px;
-    width: 100;
-}
 
-.navlist {
-    background-color: red;
-    height: 70px;
+
+/* First container hero section */
+
+.hero1 {
+    /* background-color: red; */
+    height: 580px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-
-
 }
 
-.logoimage {
+
+.part2 {
+    /* background-color:yellow; */
     position: absolute;
-    left: 137px;
-    scale: 1.5;
-    top: 8px;
+    right: 40px;
+    top: 102px;
+    width: 40%;
+    height: 520px;
+    background-image: url('../images/heart.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    scale: 1.2;
 }
 
-.logoname {
+.part1 {
+    /* background-color: pink; */
+    width: 50%;
+    height: 520px;
+    display: flex;
+    justify-content: center;
+    overflow: visible;
     position: absolute;
-    top: 31px;
-    left: 107px;
-    scale: 1.1;
+    top: 120px;
+}
+
+.herotagline1 {
+    font-family: "Matemasie", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    top: -27px;
+    font-size: 124px;
+    right: -56px;
+    height: 180px;
+
+}
+
+.herotagline2 {
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 39px;
+    position: relative;
+    top: 87px;
+    right: -57px;
+    height: 50px;
+}
+
+.herocontent {
+    /* background-color: blue; */
+    left: 129px;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    position: absolute;
+    top: 201px;
+    height: 204px;
+    width: 96%;
+    font-size: 25px;
 }
 
 
+.seehowbtn {
+    background-color: rgb(248, 64, 64);
+    height: 20px;
+    position: inherit;
+    bottom: 89px;
+    left: 133px;
+    scale: 1.2;
+    /* align-items: center; */
+    width: 121px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+.lastquote {
+    background-color: rgb(168, 168, 237);
+    display: grid;
+    position: absolute;
+    bottom: -13px;
+    left: 39%;
+    height: 41px;
+    scale: 1.2;
+    border-radius: 28px;
+    width: 304px;
+    text-align: center;
+    place-items: center;
+}
 
 
 
 
 /*second container*/
+
+
 .secondContainer {
-    background-color: #C2BBF0;
+    background-color: #9FFCDF;
     height: 750px;
     width: 100%;
 }
 
-/*first container*/
+.secondheading1 {
+    font-family: "Matemasie", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    /* background-color: pink; */
+    position: relative;
+    left: 340px;
+    top: 115px;
+    display: inline;
+    font-size: 2.8rem;
+
+}
+
+.secondheading2 {
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /* background-color: purple; */
+    position: relative;
+    left: 280px;
+    top: 175px;
+    display: inline;
+    font-size: 3rem;
+}
+
+.secondContent1 {
+    /* background-color: yellow; */
+    width: 56%;
+    position: relative;
+    top: 185px;
+    left: 27%;
+    height: 135px;
+    font-size: 17px
+}
+
+.secondContent2 {
+    /* background-color: yellow; */
+    width: 56%;
+    position: relative;
+    top: 175px;
+    left: 27%;
+    height: 134px;
+    font-size: 17px
+}
+
+.img1 {
+    height: 209px;
+    width: 173px;
+    /* background-color: red; */
+    position: relative;
+    left: 74px;
+    top: -285px;
+    background-image: url('../images/meditate.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+
+.img2 {
+    height: 209px;
+    width: 173px;
+    /* background-color: red; */
+    position: relative;
+    left: 161px;
+    top: -242px;
+    background-image: url('../images/exercise.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.img3 {
+    height: 209px;
+    width: 173px;
+    /* background-color: red; */
+    position: relative;
+    right: -54rem;
+    top: -47rem;
+    background-image: url('../images/running.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.img4 {
+    height: 209px;
+    width: 173px;
+    /* background-color: red; */
+    position: relative;
+    right: -26rem;
+    top: -32rem;
+    background-image: url('../images/oldpeople.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.img5 {
+    height: 209px;
+    width: 173px;
+    /* background-color: red; */
+    position: relative;
+    right: -60rem;
+    top: -48rem;
+    background-image: url('../images/worship.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.img6 {
+    height: 209px;
+    width: 173px;
+    /* background-color: red; */
+    position: relative;
+    right: -79rem;
+    top: -70rem;
+    background-image: url('../images/yoga.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.img7 {
+    height: 209px;
+    width: 173px;
+    /* background-color: red; */
+    position: relative;
+    right: -74rem;
+    top: -72rem;
+    background-image: url('../images/Gym.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.img8 {
+    height: 209px;
+    width: 173px;
+    /* background-color: red; */
+    position: relative;
+    right: -76rem;
+    top: -113rem;
+    background-image: url('../images/family.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+
+/*third container*/
 
 .thirdContainer {
     background-color: #F1E3F3;
@@ -64,30 +287,239 @@
     width: 100%;
 }
 
+.thirdheading {
+    font-family: "Matemasie", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    /* background-color: red; */
+    height: 65px;
+    width: 354px;
+    left: 36rem;
+    position: relative;
+    top: 4rem;
+    font-size: 3rem;
+}
 
-/*first container*/
+.cardsection {
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    height: 32rem;
+    position: relative;
+    top: 8rem;
+}
+
+
+.card {
+    background-color: #F1E3F3;
+    width: 23rem;
+    border: 1px solid black;
+    border-radius: 22px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6pxpx 25px rgba(0, 0, 0, 0.3);
+}
+
+.cardheading {
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    /* background-color: blue; */
+    height: 35px;
+    width: 75%;
+    position: relative;
+    left: 32px;
+    top: 5px;
+}
+
+.cardimg1 {
+    height: 195px;
+    width: 200px;
+    /* background-color: pink; */
+    background-image: url('../images/Agegroup.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 72px;
+    top: 19px;
+}
+
+.cardimg2 {
+    height: 195px;
+    width: 200px;
+    /* background-color: pink; */
+    background-image: url('../images/problems.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 72px;
+    top: 19px;
+}
+
+.cardimg3 {
+    height: 195px;
+    width: 200px;
+    /* background-color: pink; */
+    background-image: url('../images/solutions.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 72px;
+    top: 19px;
+}
+
+.cardcontent {
+    font-family: "Anek Devanagari", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.1rem;
+    font-variation-settings: "wdth" 100;
+    /* background-color: purple; */
+    height: 180px;
+    width: 282px;
+    position: relative;
+    top: 29px;
+    left: 30px;
+}
+
+
+
+
+
+
+/*fourth container*/
+
 .fourthContainer {
     background-color: #62BFED;
-    height: 750px;
+    height: 400px;
     width: 100%;
 }
 
+.fourthcontent1 {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    /* background-color: red; */
+    display: inline;
+    position: relative;
+    left: 10rem;
+    top: 6rem;
+    font-size: 2.8rem;
+}
 
-/*first container*/
+
+.fourthcontent2 {
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /* background-color: red; */
+    display: inline;
+    position: relative;
+    left: -8rem;
+    top: 10rem;
+    font-size: 2rem;
+}
+
+.thirdbtn {
+        font-family: "Noto Sans TC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    background-color: #65e1cb;
+    position: relative;
+    top: 6rem;
+    width: 16rem;
+    height: 42px;
+    font-size: 20px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    left: 48rem;
+    text-decoration: none;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.thirdbtn:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6pxpx 25px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+/*fifth container*/
 .fifthContainer {
-    background-color: #3590F3;
-    height: 750px;
-    width: 100%;
-}
-
-.sixthContainer {
     background-color: #9FFCDF;
-    height: 750px;
+    height: 21rem;
     width: 100%;
 }
 
-.seventhContainer {
-    background-color: #52AD9C;
-    height: 750px;
+.fourthbtn{
+    height: 31px;
     width: 100%;
+    background-color: #35fcbd;
+    font-size: 20px;
+    border-radius: 0.5px solid black;
+}
+
+.contactcontent{
+    /* background-color: red; */
+    height: 90%;
+    width: 95%;
+    position:relative;
+    left: 2.5rem;
+    
+}
+
+.footpanel2 {
+    /* background-color: #222f3d; */
+    color: black;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+.footpanel2 a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+
+
+.footpanel4 {
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+.pages {
+    padding-top: 25px;
+}
+
+
+.copyright {
+    padding-top: 5px;
+
 }
